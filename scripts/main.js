@@ -1,1 +1,1 @@
-console.log("'Allo 'Allo!");
+$(document).ready(function(){$("body").scrollspy({target:".navbar",offset:50}),$("#features-link").on("click",function(t){if(""!==this.hash){t.preventDefault();var o=this.hash;$("html, body").animate({scrollTop:$(o).offset().top},500,function(){window.location.hash=o})}})});
